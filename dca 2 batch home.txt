@@ -1,0 +1,30 @@
+block section font - 
+font style = ctrl + shift  + F
+font size - ctlr + shift + P
+bold - ctrl + B 
+italic - ctrl + I 
+underline - ctrl + U 
+subscript - ctrl + shift + _ ( underscore )
+superscript = ctrl + shift + +
+increase font size - ctrl + shift + > 
+decrease font size - ctrl + shift + <
+case five type - 
+sentenscase 
+uppercase 
+lowercase 
+capitalize each word
+toggle case
+undo - ctrl + z 
+rado - ctrl + Y 
+copy - ctrl + c 
+cut = ctrl + x 
+paste = ctrl + v 
+print - ctrl + P 
+save - ctrl + s 
+save as = ctrl + shift + S 
+new = ctlr + n 
+open = ctrl + O 
+format printer - copy -  ctlr + alt + C 
+paste format - ctrl + alt + V 
+ 
+

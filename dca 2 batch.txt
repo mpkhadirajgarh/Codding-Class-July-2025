@@ -1,0 +1,14 @@
+desktop 
+task bar - window key , start key , minimize program , date , time , internet, notification 
+ms word full form - microsoft word 
+word work area - letters , application, resume , book , e- book , document , office work 
+title bar - title 
+menu / tab - menu bar 
+menu name - home , insert, view etc ............
+ribben - block section, group of cammand 
+ruler two type - horizontal , vertical ruler 
+scroll bar - horizontal , vertical scroll bar 
+caption key - minimize , restore down/ maximize , close 
+status bar - page , words , layout, zoom out, zoom in 
+
+

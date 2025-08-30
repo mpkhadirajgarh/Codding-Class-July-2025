@@ -6,21 +6,68 @@
     <title>Student Registraion</title>
 </head>
 <body>
+    <h1>Student Registraion form</h1>
     <form action="">
+
+                <!-- Label & Text box -->
+        <label for="enroll"><b>Enrollment No:</b></label>
+        <input type="text" name="enroll" id="enroll"> <br><br>
+
+        <!-- Label & Text box -->
+
         <label for="fname"><b>First Name:</b></label>
-        <br>
         <input type="text" id="fname" name="fname">
-        <br>
+        <br> <br>
+
         <label for="lname"><b>Last Name</b></label>
-        <br>
-        <input type="text" id="lname" name="lname"> <br>
-    <label for="gender"><b>gender:</b></label>
+        <input type="text" id="lname" name="lname">
+         <br> <br>
+
+         <label for="fdr"><b>Father's Name:</b></label>
+         <input type="text" name="fdr" id="fdr">
+         <br><br>
+
+<!-- using "Date Form" Control -->
+         <label for="dob"><b>Dath of Birth:</b></label>
+         <input type="date" name="dob" id="dob"> 
+         <br><br>
+
+<!-- using "Tel form" control-->
+
+ <label for="mobile"><b>Mobile</b></label>
+ <input type="text" size="1" value="+91" id="contrycode">
+ <input type="tel" id="mobile" name="mobile" placeholder="9826098260">
+<br><br>
+
+<!-- Radio button / options -->
+
+    <label for="#"><b>gender:</b></label>
+
     <input type="radio" id="male" name="Gender" value="Male">
     <label for="male">Male</label>
+
     <input type="radio" id="female" name="Gender" value="Female">
     <label for="female">Female</label>
+
     <input type="radio" id="transgender" name="Gender" value="Transgender">
     <label for="transgender">Transgender</label>
+     <br> <br>
+
+     <!-- check box -->
+<label for="#"><b>Choose Department:</b></label>
+
+<input type="checkbox" name="cse" id="cse">
+<label for="cse">CSE</label>
+
+<input type="checkbox" name="it" id="it">
+<label for="it">IT</label>
+
+<input type="checkbox" name="ece" id="ece">
+<label for="ece">ECE</label>
+
+<input type="checkbox" name="civil" id="civil">
+<label for="civil">Civil</label>
+
         <br><br>
         <button>Submit</button>
     </form>

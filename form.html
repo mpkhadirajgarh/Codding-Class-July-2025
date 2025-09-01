@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Registraion</title>
+    
 </head>
 <body>
     <h1>Student Registraion form</h1>
@@ -16,7 +17,9 @@
         <!-- Label & Text box -->
 
         <label for="fname"><b>First Name:</b></label>
-        <input type="text" id="fname" name="fname">
+       
+       <img src="Star.png" alt="start" width="10px" height="10px">
+        <input type="text" id="fname" name="fname" required>
         <br> <br>
 
         <label for="lname"><b>Last Name</b></label>
@@ -34,11 +37,22 @@
 
 <!-- using "Tel form" control-->
 
- <label for="mobile"><b>Mobile</b></label>
+ <label for="mobile"><b>Mobile</b></label> 
+ <img src="Star.png" alt="start" width="10px" height="10px">
  <input type="text" size="1" value="+91" id="contrycode">
- <input type="tel" id="mobile" name="mobile" placeholder="9826098260">
+ <input type="tel" id="mobile" name="mobile" placeholder="9826098260" maxlength="10" minlength="10" required>
 <br><br>
 
+
+<!-- use of mailto-->
+ <label for="email"> <b>Email Id: </b></label>
+ <input type="email" id="email" name="email" placeholder="adityacomputer@gmail.com" maxlength="30" size="25">
+ <br><br>
+
+ <!-- using passs-->
+  <label for="pwd"><b>Password:</b></label>
+  <input type="password" size="15" maxlength="10" placeholder="*******" name="pwd" id="pwd">
+<br><br>
 <!-- Radio button / options -->
 
     <label for="#"><b>gender:</b></label>
@@ -67,6 +81,20 @@
 
 <input type="checkbox" name="civil" id="civil">
 <label for="civil">Civil</label>
+<br><br>
+
+<!-- list box -->
+
+<label for="course"><b>Course:</b></label>
+<select name="course" id="course">
+    <option value="select">Select Course</option>
+    <option value="dca">DCA</option>
+    <option value="pgdca">PGDCA</option>
+    <option value="tally">Tally Prime</option>
+    <option value="cpct">CPCT</option>
+</select>
+
+
 
         <br><br>
         <button>Submit</button>

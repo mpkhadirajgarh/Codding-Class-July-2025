@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Student Registraion form</h1>
-    <form action="">
+    <form action="#" method="get">
 
                 <!-- Label & Text box -->
         <label for="enroll"><b>Enrollment No:</b></label>
@@ -93,10 +93,13 @@
     <option value="tally">Tally Prime</option>
     <option value="cpct">CPCT</option>
 </select>
-
-
-
-        <br><br>
+<br><br>
+<label for="photo"><b>Photo</b></label>
+<input type="file" name="photo" id="photo" value="photo">
+<br><br>
+<p><b>Address:</b></p>
+<textarea name="add" id="add" cols="50" rows="10" minlength="100" maxlength="300"></textarea>
+<br><br>
         <button>Submit</button>
     </form>
 </body>

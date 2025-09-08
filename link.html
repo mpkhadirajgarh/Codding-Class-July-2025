@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link in CSS</title>
+    <style>
+        ul {
+            display: flex;
+            gap: 20px;
+           
+        }
+        ul li {
+            align-content: center;
+            list-style-type:none;
+        }
+        a:link{
+            color: red;
+            text-decoration: none;
+            background-color: aqua;
+        }
+        a:visited{
+            color: rgb(44, 22, 240);
+            background-color:rgb(237, 222, 48);
+        }
+        a:hover{
+            color: white;
+            background-color: black;
+        }
+        a:active{
+            color: chartreuse;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+        <a href="https://sarkaripostfind.com/" target="_blank">
+            <li>Home</li>
+        </a>
+
+      <a href="https://sarkaripostfind.com/about/" target="_blank">
+        <li>About us</li>
+    </a>
+
+       <a href="https://acisarangpur.blogspot.com/p/course-details.html" target="_blank">
+        <li>Course</li>
+    </a>
+
+       <a href="https://acisarangpur.blogspot.com/p/contact-us.html" target="_blank">
+        <li>Contat us</li>
+    </a>
+    </ul>
+    </nav>
+    
+    
+</body>
+</html>

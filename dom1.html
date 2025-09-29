@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Dom</title>
+</head>
+<body>
+    <h1 id="wh1">Welcome to Dom</h1>
+
+    <p id="para1"></p>
+
+    <button onclick="myclick()">Click me</button>
+
+    <script>
+        document.getElementById("para1").innerHTML= "Welcome  to dom";
+
+        const myelement = document.getElementsByTagName('h1');
+
+        myelement[0].innerHTML = "Good By Element";
+
+        document.getElementById('para1').innerHTML = myelement[0].innerHTML
+
+        function myclick() {
+
+            alert('welcome to dom')
+        }
+        
+    </script>
+
+    
+</body>
+</html>

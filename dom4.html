@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onblur & onfocus</title>
+</head>
+<body>
+    <form action="">
+        <label for="name"><b>Name: </b></label>
+        <input type="text" name="" id="name" onfocus="myfocus(this)" onblur="myblur(this)">
+    </form>
+    <script>
+        function myfocus(x) {
+x.style.background = 'yellow';
+        }
+
+        function myblur(x){
+x.style.background = 'white';
+x.value = x.value.toUpperCase();
+x.style.color = 'red';
+        }
+    </script>
+</body>
+</html>

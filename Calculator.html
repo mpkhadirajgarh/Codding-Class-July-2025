@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Program</title>
+</head>
+<body>
+    <h1>My Calculator Program</h1>
+
+    <label for="num1">Num1: </label>
+    <input type="text" id="num1">
+
+    <label for="num2">Num2: </label>
+    <input type="text" id="num2">
+    <br><br>
+
+    <button id="btn1" onclick="mysum()">Sum</button>
+    <button id="Multiply" onclick="multifyNumbrs()">Multiply</button>
+    <button id="minus" onclick="MinusNumber()">Minus</button>
+    <button id="divi" onclick="DivivionNumbers()">Division</button>
+
+    <input type="text" id="result">
+
+    <p id="sum"></p> 
+    <button id="clr" onclick="myclear()">Clear</button>
+
+    <script>
+        function mysum() {
+        const inputnum1 = document.getElementById('num1').value;
+        const inputnum2 = document.getElementById('num2').value;
+        
+
+       const number1 = parseInt(inputnum1);
+       const number2 = parseInt(inputnum2);
+    //    alert(number1)
+    //    alert(number2)
+        const SumOfNumber = number1 + number2;
+        // alert(SumOfNumber);
+         document.getElementById('result').value = SumOfNumber;
+
+        document.getElementById('sum').innerHTML = '<b>'+'Sum of Two Number:' + '</b>' + SumOfNumber;
+        }
+
+        // clear function 
+
+        function myclear() {
+        document.getElementById('num1').value = '';
+        document.getElementById('num2').value = '';
+        document.getElementById('result').value = '';
+        document.getElementById('sum').innerHTML = '';
+        }
+
+        // multify function 
+        function multifyNumbrs() {
+        const inputnum1 = document.getElementById('num1').value;
+        const inputnum2 = document.getElementById('num2').value;
+        
+
+       const number1 = parseInt(inputnum1);
+       const number2 = parseInt(inputnum2);
+
+       const SumOfNumber = number1 * number2;
+
+       document.getElementById('result').value = SumOfNumber;
+
+        document.getElementById('sum').innerHTML = '<b>'+'Sum of Two Number:' + '</b>' + SumOfNumber;
+        }
+
+        // minum calculation function 
+function MinusNumber() {
+        const inputnum1 = document.getElementById('num1').value;
+        const inputnum2 = document.getElementById('num2').value;
+        
+
+       const number1 = parseInt(inputnum1);
+       const number2 = parseInt(inputnum2);
+
+       const SumOfNumber = number1 - number2;
+
+       document.getElementById('result').value = SumOfNumber;
+
+        document.getElementById('sum').innerHTML = '<b>'+'Sum of Two Number:' + '</b>' + SumOfNumber;
+        }
+
+        // Division Numbers Function 
+
+        function DivivionNumbers() {
+        const inputnum1 = document.getElementById('num1').value;
+        const inputnum2 = document.getElementById('num2').value;
+        
+
+       const number1 = parseInt(inputnum1);
+       const number2 = parseInt(inputnum2);
+
+       const SumOfNumber = number1 / number2;
+
+       document.getElementById('result').value = SumOfNumber;
+
+        document.getElementById('sum').innerHTML = '<b>'+'Sum of Two Number:' + '</b>' + SumOfNumber;
+        }
+
+
+    </script>
+</body>
+</html>
